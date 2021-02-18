@@ -1,0 +1,385 @@
+.wrapper_top{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-image: url(../img/drawing.png); 
+    background-image: linear-gradient(top, #ccc, #777);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: -1;
+  
+
+}
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    z-index: 990;   
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(125,125,125,0.30);
+    
+
+}
+
+
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;  
+
+}
+
+.nav__item{
+    padding-right: 15px;  
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+      
+}
+
+
+.header__logo{
+    background-size: contain;
+    max-width: 140px;
+    width: 140px;
+}
+
+.wrapper_right{
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    
+      
+    
+}
+
+.header__email{
+    text-decoration: none;
+    padding-right: 25px;
+    color: white;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 20px;
+    
+}
+.content{
+    max-width: 1160px; 
+    width:100%;
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+.content_filter{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100vh;
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.70), rgba(0,0,0,0.70));
+    width: 100%;
+    z-index:0 ;
+ }
+
+.banner{
+
+    padding-top: 28%;
+    
+}
+
+
+.banner_content{
+    position: relative;
+    text-align: center;
+    max-width: 1160px;
+    text-align: center; 
+    color:white;
+    z-index: 1;
+}
+
+
+h1{
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 0px 0px 38px 0px;
+}
+
+h2{
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 0px 0px 38px 0px;
+}
+h3{
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+}
+
+h4{
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    max-width: 700px; margin: 0 auto;
+}
+
+
+.descr{
+    position: relative;
+    max-width: 1160px;
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+ 
+    
+   
+}
+
+.descr_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.descr_img{
+    background-image: url(../img/noroot.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 560px;
+    height: 560px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.descr_text{
+    vertical-align: middle;
+    font-family: 'Roboto',Arial,sans-serif;
+    text-align: center;
+    width: 560px;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.descr_about{
+
+    font-size: 42px;
+    line-height: 1.23;
+    font-weight: 600 ;
+    color: black;
+    margin-bottom: 16px;
+    
+    
+}
+.descr_advant{
+    font-size: 16px;
+    line-height: 1.55;
+    color:#666;
+    margin-bottom: 28px;
+}
+
+.descr_work{
+    font-size: 20px;
+    margin-top: 28px;
+    font-weight: 200;
+    color: #000000;
+}
+
+.descr_line{
+    background-color: #259da8;
+    max-width: 50px;
+    width: 100%;
+    height: 3px;
+    display: block;
+    margin: auto;
+}
+
+.wrapper_services{
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: #ededed;;
+}
+
+.services_text{
+    display: block;
+    max-width: 760px;
+    margin: 0 auto;
+   
+}
+
+.services_text>p{
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    margin: 0 auto;
+}  
+
+.services_list{
+ 
+    text-align: left;
+    font-size: 24px;
+    line-height: 1.50;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+    color: #000000;
+
+}
+
+.wrapper_adv{
+    display: block;
+    width: 100%;
+    height: 750px;
+}
+
+.adv{
+    
+    padding-top: 50px;
+    padding-bottom: 150px;
+    max-width: 1160px;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 0px;
+    
+}
+
+.adv_descr{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.adv_descr h3{
+    text-transform: none;
+    font-weight: 300;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.adv_descr h2{
+    text-transform: none;
+    font-weight: 600;
+    line-height: 1.50;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.descr_why h3{
+    max-width: 560px;
+    margin:0 auto;
+    letter-spacing: 0.1px;
+    margin-bottom: 105px;
+    padding-bottom: 0;
+}
+
+.wrapper_adv_block{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adv_block{
+    width: 360px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.block_img{
+    margin-bottom: 25px;
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.adv_text{
+    text-align: center;
+    
+}
+
+
+.adv_text h3{
+    text-transform: none;   
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+
+.adv_text h4{
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.wrapper_form{
+    display: block;
+    width: 100%;
+    background-color: #ededed; 
+    text-align: center;
+    
+
+}
+
+
+.wrapper_form h1{
+    font-size: 52px;
+    line-height: 1.23;
+    padding-bottom: 0px;
+}
+.form_text h2{
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 26px;
+    line-height: 1.45;
+    font-weight: 300;
+    color: #000000;
+   
+}
+
+.form{
+    width: 1160px;
+    margin: 0 auto;
+}
+footer{
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #ededed; 
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+
+}
